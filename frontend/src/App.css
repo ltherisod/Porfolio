@@ -5,6 +5,8 @@ html * {
   font-family: 'Roboto Mono', monospace;
 }
 
+/*Hero*/
+
 .heroContainer {
   width: 100%;
   min-height: 90vh;
@@ -18,8 +20,6 @@ html * {
   justify-content: space-between;
   align-items: center;
 }
-
-
 
 .heroPhoto{
   align-self: center;
@@ -78,6 +78,8 @@ html * {
   font-size: 3vmin;
 }
 
+/*Navbar*/
+
 .logoLmt{
   width: 6rem;
   margin: 0 1em;
@@ -105,13 +107,14 @@ html * {
   color:#66ff99;
 }
 
-
 .navA{
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
+/*Home main*/
 
 .homeMain, .home, .proyectosBody,.contactoBody{
   background-color: #25262a;
@@ -127,6 +130,9 @@ html * {
 .proyectosHeader{
   background-color: #2d2e32;
 }
+
+/*Footer*/
+
 footer{
   background-color: #2d2e32;
   width: 100%;
@@ -154,6 +160,8 @@ footer{
 .icon:hover {
   fill:#66ff99;
 }
+
+/*Cards Home*/
 
 .cardTitle{
   align-self: center;
@@ -232,6 +240,8 @@ footer{
   color:#66ff99;
 }
 
+/*Tech Banner*/
+
 .tech{
   width: 100%;
   display: flex;
@@ -248,6 +258,8 @@ footer{
   background-color:rgba(0, 0, 0, 0.452);
   border-radius: 1em;
 }
+
+/*Some Proyects*/
 
 .proyectVideo{
   width: 40vw;
@@ -332,6 +344,8 @@ footer{
   flex-direction: column;
   align-items: center;
 }
+
+/*Proyectos Page */
 
 .proyectosHero{
   width: 100%;
