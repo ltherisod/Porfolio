@@ -492,7 +492,7 @@ footer{
 }
 
 /*Media Queries*/
-@media (max-width: 960px){
+@media (max-width: 1000px){
   .introHero{
     flex-direction: column;
   }
