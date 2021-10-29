@@ -1,0 +1,661 @@
+html * {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.heroContainer {
+  width: 100%;
+  min-height: 90vh;
+  background-color: #2d2e32;
+ 
+}
+.introHero{
+  align-self: center;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+.heroPhoto{
+  align-self: center;
+  width: 50vw;
+  height: 60vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.titleContainer{
+  width: 45%;
+  min-height: 3rem;
+  background-color: #66ff99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.5em;
+  font-size: 2.5vmin;
+}
+
+.dataHero{
+  width: 45vw;
+  align-self: center;
+
+}
+.dataHero h2 {
+  color: #dbdbdc;
+  font-weight:normal;
+  letter-spacing: 3px;
+  text-align:start;
+  font-size: 5vmin;
+}
+
+
+.heroText{
+  align-self: center;
+  width: 80%;
+  margin-bottom: 2em ;
+}
+
+.heroText p {
+  color:#606167;
+  font-size: 2vmin;
+  letter-spacing: 2px;
+  margin: 2em 0;
+}
+.contactSpan{
+  align-self: center;
+  text-decoration: none;
+}
+
+
+.contactHero{
+  color:#66ff99;
+  font-size: 3vmin;
+}
+
+.logoLmt{
+  width: 6rem;
+  margin: 0 1em;
+}
+
+.navbar{
+  width: 100%;
+  height: 10vh;
+  padding: 0 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-link {
+  text-decoration: none;
+  color:#dbdbdc !important;
+}
+
+.nav-link:hover{
+  color:#66ff99 !important;
+}
+
+.nav-link.active {
+  color:#66ff99;
+}
+
+
+.navA{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.homeMain, .home, .proyectosBody,.contactoBody{
+  background-color: #25262a;
+}
+
+.homeMain {
+  width: 100%;
+  padding: 4rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.proyectosHeader{
+  background-color: #2d2e32;
+}
+footer{
+  background-color: #2d2e32;
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: center;
+
+ 
+}
+
+.footerRights{
+  color:#dbdbdc
+}
+
+.socialMedia {
+  padding: 1em;
+  width:13vw;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.icon:hover {
+  fill:#66ff99;
+}
+
+.cardTitle{
+  align-self: center;
+  width:30vw ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cardTitle span {
+  font-size: 3.5vmin;
+  font-weight: normal;
+  letter-spacing: 2px;
+  color: #66ff99;
+}
+
+.cardText{
+  padding: 1em 0;
+  align-self: center;
+  width:30vw;
+}
+
+.cardText p{
+  text-align: start;
+  color: #dbdbdc;
+  letter-spacing: 1.5px;
+  font-weight: lighter;
+}
+
+.card{
+  margin: 1em;
+  padding: 2rem;
+  border-radius:1em!important;
+  display: flex;
+  width: 40vw;
+  height: 40vh;
+  background-color: #2d2e32!important;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 5px 5px 19px 5px rgba(0,0,0,0.32);
+}
+
+.cardbody{
+  align-self: center;
+}
+
+.introductionMain h3{
+  color:#dbdbdc;
+  letter-spacing: 2px;
+  font-size: 6vmin;
+}
+.introductionMain h5{
+  color:#dbdbdc;
+  letter-spacing: 2px;
+  font-size: 2.5vmin;
+}
+
+.introductionMain p{
+  color:#606167;
+  letter-spacing: 2px;
+  font-size: 2.5vmin;
+  text-align: justify;
+}
+
+
+.introductionMain{
+  width:30vw;
+  margin-left: 2em;
+}
+
+.introductionMain div{
+  margin-top: 2em;
+}
+
+.introductionMain p span{
+  color:#66ff99;
+}
+
+.tech{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.techContainer{
+  align-self: center;
+  width: 80%;
+  height: 10vh;
+  padding: 1em 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color:rgba(0, 0, 0, 0.452);
+  border-radius: 1em;
+}
+
+.proyectVideo{
+  width: 40vw;
+  border-radius: 1em;
+  box-shadow: 5px 5px 19px 5px rgba(0,0,0,0.32);
+}
+
+.cardVideo{
+  margin: 1em;
+  padding: 2rem;
+  border-radius:1em!important;
+  display: flex;
+  width: 40vw;
+  height: 45vh;
+  background-color: #2d2e32!important;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 5px 5px 19px 5px rgba(0,0,0,0.32);
+}
+
+.videoTitle{
+  align-self: center;
+  width: 25vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.videoTitle span{
+  font-size: 3.5vmin;
+  font-weight: normal;
+  letter-spacing: 2px;
+  color: #66ff99;
+}
+
+.videoText{
+  padding: 1em 0;
+  align-self: center;
+  width:25vw;
+}
+
+.videoText p{
+  text-align: start;
+  color: #dbdbdc;
+  letter-spacing: 1.5px;
+  font-weight: lighter;
+}
+
+.videoDescrip{
+  margin:4em 0;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.videoSection{
+  align-self: flex-start;
+  padding: 0 4em;
+}
+
+.videoSection h4{
+  color:#dbdbdc;
+  font-size: 5vmin;
+  margin-left: 1em;
+}
+
+.videoSection p {
+  color:#606167;
+  margin-left: 2.5em;
+}
+
+.videoSection a {
+  color:#66ff99;
+  text-decoration: none;
+}
+
+.someProjectsContainer{
+  padding: 4em 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.proyectosHero{
+  width: 100%;
+  height: 60vh;
+  padding: 1em;
+  display: flex;
+  align-items: center;
+}
+
+.proyectosHero span{
+  align-self: flex-start;
+  padding: .2em;
+  background-color: #66ff99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: .5em;
+  font-size: 6vmin;
+}
+
+.proyectosHero p{
+  align-self: flex-start;
+  color:#606167;
+  letter-spacing: 2px;
+}
+.proyectoCard{
+  margin: 9em 0;
+}
+.mytineraryWeb{
+  width: 40vw;
+  height: 45vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 1em;
+  box-shadow: 5px 5px 19px 5px rgba(0,0,0,0.32);
+}
+
+.proyectoTitle h4{
+  text-align: center;
+  color: #dbdbdc;
+  font-size: 5vmin;
+  letter-spacing: 2px;
+}
+.proyectoTitle{
+  padding: 2em;
+  margin: 1em;
+}
+.proyectoText{
+  width:40vw;
+}
+.proyectoText p {
+  color: #606167;
+  font-size: 2.5vmin;
+  letter-spacing: 1px;
+}
+
+.proyectosDescrip{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.techsText{
+  color: #dbdbdc !important;
+  font-size: 2vmin !important;
+}
+
+.proyectosIcons {
+  margin-top: 2em;
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.HeroProyectText{
+  background-color: #2d2e32;
+  padding: 3em;
+  width: 40vw;
+}
+
+.HeroProyectText h3{
+  color: #dbdbdc;
+  font-weight:normal;
+  letter-spacing: 3px;
+  text-align:start;
+  font-size: 8vmin;
+}
+
+.HeroProyectText a {
+  text-decoration: none;
+  color:#66ff99;
+  font-size: 3vmin;
+}
+
+.HeroProyectText a:hover, .viewMore:hover {
+  color:#00ccff;
+}
+
+.mainContact {
+  width: 100%;
+  padding:4em;
+  min-height: 70vh;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contactCard {
+  padding: 2rem;
+  border-radius:1em!important;
+  display: flex;
+  width: 40vw;
+  height: 50vh;
+  background-color: #2d2e32!important;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 5px 5px 19px 5px rgba(0,0,0,0.32)
+}
+
+.dataDev h2{
+  color:#dbdbdc;
+  font-size: 5vmin;
+  letter-spacing: 1.5px;
+}
+
+.dataDev p {
+  color:#606167;
+  font-size: 2.5vmin;
+  letter-spacing: 1px;
+}
+
+.dataIcon{
+  display: flex;
+  align-items: center;
+  margin-top: 1em;
+}
+
+.dataIcon span{
+  color:#dbdbdc;
+  margin-left: 1em;
+}
+
+.dataCv{
+  margin-top: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dataCv a {
+  font-size: 2.5vmin;
+  color:#66ff99;
+  text-decoration: none;
+}
+
+.dataCv a:hover{
+  color:#00ccff;
+}
+
+/*Media Queries*/
+@media (max-width: 960px){
+  .introHero{
+    flex-direction: column;
+  }
+  .heroPhoto{
+    width: 100%;
+  }
+  .dataHero {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .titleContainer{
+    align-self: center;
+    font-size: 3.5vmin;
+  }
+  
+  .dataHero h2 {
+    text-align: center;
+  }
+
+  .dataHero p {
+    font-size: 3vmin;
+    text-align: justify;
+  }
+
+  .contactHero {
+    font-size: 5vmin!important;
+  }
+
+  .homeMain{
+    flex-direction: column-reverse;
+  }
+
+  .introductionMain{
+    width: 100%;
+    margin-left: 0;
+    padding: 0 1em;
+  }
+
+  .introductionMain h3 {
+    font-size: 7vmin;
+  }
+
+  .introductionMain h5 {
+    font-size: 3.5vmin;
+  }
+
+  .introductionMain p {
+    font-size: 3vmin;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .cardsMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+  }
+
+  .cardBody {
+    width: 100%;
+  }
+
+  .cardTitle{
+    width: 80%;
+    margin-top: 2em;
+  }
+  .cardText{
+    width: 100%;
+  }
+
+  .cardText p {
+    text-align:justify;
+  }
+
+  .techContainer svg {
+    width: 40px;
+    height: 40px;
+  }
+
+  .techContainer {
+    padding: 1em;
+  }
+
+  .videoSection{
+    text-align: center;
+  }
+
+  .videoSection h4{
+    margin-left: 0;
+    font-size: 6vmin;
+  }
+
+  .videoDescrip{
+    flex-direction: column;
+  }
+  
+  .proyectVideo{
+    width: 90%;
+  }
+
+  .cardVideo{
+    width: 90%;
+  }
+
+  .cardbody{
+    width: 100%;
+  }
+
+  .videoText{
+    width: 100%;
+  }
+
+  .videoTitle{
+    width: 90%
+  }
+
+  .socialMedia{
+    width: 50%;
+  }
+
+  .HeroProyectText {
+    width: 90%;
+  }
+
+  .HeroProyectText a {
+    font-size: 5vmin;
+  }
+
+  .proyectosDescrip{
+    flex-direction: column;
+  }
+
+  .mytineraryWeb{
+    width: 90%;
+  }
+
+  .proyectoText{
+    padding:1em;
+    width: 100%;
+  }
+
+  .proyectoText p{
+    font-size:3vmin!important;
+  }
+  .proyectosIcons{
+    width: 50%;
+  }
+
+  .contactCard{
+    padding: 1em;
+    width: 100%;
+  }
+
+  .contactCard div {
+    width: 100%;
+  }
+
+}
+
+
+
