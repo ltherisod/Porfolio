@@ -670,6 +670,10 @@ footer{
   }
 
 }
+@media (min-width: 1005px) and (max-width: 1300px) {
 
-
-
+  .contactCard{
+    padding: 1em;
+    width: 50vw;
+  }
+}
