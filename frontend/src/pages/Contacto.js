@@ -42,7 +42,7 @@ const Contacto = () => {
                             <span>Whatsapp: 2215710301</span>
                        </div>
                        <div className="dataCv">
-                  <a target="_blank" href="/assets/laura-therisod-cv.pdf" download rel="noopener noreferrer" className="cvDownload">
+                  <a target="_blank" href="/assets/laura-therisod-cv-uploaded.pdf" download rel="noopener noreferrer" className="cvDownload">
                     {'< Descargar CV />'}
                     </a>
                   </div>
